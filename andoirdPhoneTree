@@ -1,0 +1,301 @@
+.
+├── Alarms
+├── Android
+│   ├── data
+│   │   ├── com.android.providers.media
+│   │   │   └── albumthumbs
+│   │   │       └── 1514765193359
+│   │   ├── com.android.systemui
+│   │   │   └── cache
+│   │   │       └── lockscreen_capture_port.png
+│   │   ├── com.android.vending
+│   │   │   └── files
+│   │   │       ├── config
+│   │   │       │   └── play_sentinel
+│   │   │       ├── dna_data
+│   │   │       └── installer
+│   │   ├── com.dropbox.android
+│   │   ├── com.facebook.appmanager
+│   │   │   ├── cache
+│   │   │   └── files
+│   │   │       ├── decompressedApks
+│   │   │       └── Download
+│   │   │           └── fileDownloader
+│   │   ├── com.gd.mobicore.pa
+│   │   │   └── files
+│   │   ├── com.google.android.apps.docs
+│   │   │   ├── cache
+│   │   │   └── files
+│   │   │       └── pinned_docs_files_do_not_edit
+│   │   ├── com.google.android.apps.magazines
+│   │   │   ├── cache
+│   │   │   └── files
+│   │   ├── com.google.android.apps.maps
+│   │   │   ├── cache
+│   │   │   │   ├── cache_r.m
+│   │   │   │   └── diskcache
+│   │   │   │       ├── map_cache.db
+│   │   │   │       ├── map_cache.db-shm
+│   │   │   │       └── map_cache.db-wal
+│   │   │   ├── files
+│   │   │   └── testdata
+│   │   ├── com.google.android.gm
+│   │   │   └── cache
+│   │   ├── com.google.android.gms
+│   │   │   └── files
+│   │   │       └── gmsnet2.jpg
+│   │   ├── com.google.android.googlequicksearchbox
+│   │   │   └── files
+│   │   │       ├── download_cache
+│   │   │       └── pending_blobs
+│   │   ├── com.google.android.music
+│   │   │   ├── cache
+│   │   │   └── files
+│   │   ├── com.google.android.videos
+│   │   │   └── files
+│   │   │       └── Movies
+│   │   ├── com.google.android.youtube
+│   │   │   ├── cache
+│   │   │   │   ├── cronet_media_cache
+│   │   │   │   └── exo
+│   │   │   │       └── 537a49383cbc4705.uid
+│   │   │   └── files
+│   │   ├── com.microsoft.office.excel
+│   │   │   ├── cache
+│   │   │   │   └── ts_configuration.jwt
+│   │   │   └── files
+│   │   │       └── Download
+│   │   │           └── backgroundexcel
+│   │   │               ├── 16.0.12228.20260
+│   │   │               │   └── droidarm
+│   │   │               │       └── ship
+│   │   │               └── 16.0.13328.20160
+│   │   │                   └── droidarm64
+│   │   │                       └── ship
+│   │   ├── com.microsoft.office.onenote
+│   │   │   ├── cache
+│   │   │   └── files
+│   │   │       └── Download
+│   │   │           └── backgroundmodernonenote
+│   │   │               ├── 16.0.12228.20292
+│   │   │               │   └── droidarm64
+│   │   │               │       └── ship
+│   │   │               └── 16.0.13231.20222
+│   │   │                   └── droidarm64
+│   │   │                       └── ship
+│   │   ├── com.microsoft.office.powerpoint
+│   │   │   ├── cache
+│   │   │   │   └── ts_configuration.jwt
+│   │   │   └── files
+│   │   │       └── Download
+│   │   │           └── backgroundpowerpoint
+│   │   │               ├── 16.0.12228.20260
+│   │   │               │   └── droidarm
+│   │   │               │       └── ship
+│   │   │               └── 16.0.13328.20160
+│   │   │                   └── droidarm64
+│   │   │                       └── ship
+│   │   ├── com.microsoft.office.word
+│   │   │   ├── cache
+│   │   │   │   └── ts_configuration.jwt
+│   │   │   └── files
+│   │   │       └── Download
+│   │   │           └── backgroundword
+│   │   │               ├── 16.0.12228.20260
+│   │   │               │   └── droidarm
+│   │   │               │       └── ship
+│   │   │               └── 16.0.13328.20160
+│   │   │                   └── droidarm64
+│   │   │                       └── ship
+│   │   ├── com.microsoft.skydrive
+│   │   │   └── cache
+│   │   │       ├── current_log.txt
+│   │   │       ├── instrumentationa
+│   │   │       └── ts_configuration.jwt
+│   │   ├── com.monotype.android.font.chococooky
+│   │   │   └── files
+│   │   ├── com.monotype.android.font.cooljazz
+│   │   │   └── files
+│   │   ├── com.monotype.android.font.rosemary
+│   │   │   └── files
+│   │   ├── com.pas.webcam
+│   │   │   └── files
+│   │   ├── com.samsung.advp.imssettings
+│   │   │   └── files
+│   │   ├── com.samsung.android.app.interactivepanoramaviewer
+│   │   │   └── files
+│   │   ├── com.samsung.android.app.simplesharing
+│   │   │   └── cache
+│   │   │       └── volley
+│   │   ├── com.samsung.android.app.soundpicker
+│   │   │   └── files
+│   │   ├── com.samsung.android.app.vrsetupwizardstub
+│   │   │   └── files
+│   │   ├── com.samsung.android.app.watchmanagerstub
+│   │   │   └── files
+│   │   ├── com.samsung.android.bluelightfilter
+│   │   │   └── files
+│   │   ├── com.samsung.android.calendar
+│   │   │   └── files
+│   │   │       └── calfiles
+│   │   ├── com.samsung.android.coreapps
+│   │   │   └── cache
+│   │   │       └── volley
+│   │   ├── com.samsung.android.drivelink.stub
+│   │   │   └── files
+│   │   ├── com.samsung.android.easysetup
+│   │   │   └── files
+│   │   ├── com.samsung.android.game.gamehome
+│   │   │   └── files
+│   │   ├── com.samsung.android.mdm
+│   │   │   └── files
+│   │   ├── com.samsung.android.oneconnect
+│   │   │   └── files
+│   │   ├── com.samsung.android.sdk.handwriting
+│   │   │   └── files
+│   │   ├── com.samsung.android.sdk.professionalaudio.utility.jammonitor
+│   │   │   └── files
+│   │   ├── com.samsung.android.slinkcloud
+│   │   │   ├── cache
+│   │   │   │   └── filetransfer_cache
+│   │   │   └── files
+│   │   ├── com.samsung.android.sm.policy
+│   │   │   └── files
+│   │   ├── com.samsung.android.spay
+│   │   │   └── cache
+│   │   │       └── volley
+│   │   ├── com.samsung.android.tzdata.update
+│   │   │   └── files
+│   │   ├── com.samsung.android.video
+│   │   │   └── files
+│   │   ├── com.samsung.android.videolist
+│   │   ├── com.samsung.android.voicewakeup
+│   │   │   └── files
+│   │   ├── com.samsung.app.highlightplayer
+│   │   │   └── files
+│   │   ├── com.samsung.app.newtrim
+│   │   │   └── files
+│   │   ├── com.samsung.app.slowmotion
+│   │   │   └── files
+│   │   ├── com.samsung.hs20provider
+│   │   │   └── files
+│   │   ├── com.samsung.safetyinformation
+│   │   │   └── files
+│   │   ├── com.samsung.svoice.sync
+│   │   │   └── files
+│   │   ├── com.sec.android.app.clipvideo
+│   │   │   └── files
+│   │   ├── com.sec.android.app.dictionary
+│   │   │   └── files
+│   │   ├── com.sec.android.app.easylauncher
+│   │   │   └── files
+│   │   ├── com.sec.android.app.launcher
+│   │   │   └── cache
+│   │   │       └── homescreenPreview.png
+│   │   ├── com.sec.android.app.magnifier
+│   │   │   └── files
+│   │   ├── com.sec.android.app.music
+│   │   │   └── cache
+│   │   ├── com.sec.android.app.ringtoneBR
+│   │   │   └── files
+│   │   ├── com.sec.android.app.shealth
+│   │   │   └── files
+│   │   ├── com.sec.android.app.sns3
+│   │   │   └── files
+│   │   ├── com.sec.android.app.snsimagecache
+│   │   │   └── files
+│   │   ├── com.sec.android.app.soundalive
+│   │   │   └── files
+│   │   ├── com.sec.android.app.tourviewer
+│   │   │   └── files
+│   │   ├── com.sec.android.app.vepreload
+│   │   │   └── files
+│   │   ├── com.sec.android.easyMover.Agent
+│   │   │   └── files
+│   │   ├── com.sec.android.gallery3d.panorama360view
+│   │   │   └── files
+│   │   ├── com.sec.android.mimage.photoretouching
+│   │   │   └── files
+│   │   ├── com.sec.android.ofviewer
+│   │   │   └── files
+│   │   ├── com.sec.android.omc
+│   │   │   └── files
+│   │   │       └── Download
+│   │   ├── com.sec.android.provider.logsprovider
+│   │   │   └── files
+│   │   ├── com.sec.android.providers.tasks
+│   │   │   └── files
+│   │   ├── com.sec.android.wallpapercropper2
+│   │   │   └── files
+│   │   ├── com.sec.android.widgetapp.easymodecontactswidget
+│   │   │   └── files
+│   │   ├── com.sec.android.widgetapp.samsungapps
+│   │   │   └── files
+│   │   ├── com.sec.android.widgetapp.webmanual
+│   │   │   └── files
+│   │   ├── com.sec.app.samsungprintservice
+│   │   │   └── files
+│   │   ├── com.sec.app.TransmitPowerService
+│   │   │   └── files
+│   │   ├── com.sec.enterprise.mdm.vpn
+│   │   │   └── files
+│   │   ├── com.sec.hearingadjust
+│   │   │   └── files
+│   │   ├── com.sec.smartcard.manager
+│   │   │   └── files
+│   │   ├── com.sec.spen.flashannotate
+│   │   │   └── files
+│   │   ├── com.skype.raider
+│   │   │   └── cache
+│   │   │       ├── com.skype.raider.0.log
+│   │   │       ├── com.skype.raider.0.log.lck
+│   │   │       ├── com.skype.raider.v8.0.log
+│   │   │       └── ts_configuration.jwt
+│   │   ├── com.wiitetech.wiiwatch
+│   │   │   ├── cache
+│   │   │   │   ├── cache_bd.0
+│   │   │   │   ├── cache_bd.m
+│   │   │   │   ├── cache_its.m
+│   │   │   │   ├── cache_its_ter.m
+│   │   │   │   ├── cache_r.0
+│   │   │   │   ├── cache_r.m
+│   │   │   │   ├── cache_vts_com.wiitetech.wiiwatch_default.0
+│   │   │   │   ├── cache_vts_com.wiitetech.wiiwatch_default.m
+│   │   │   │   ├── cache_vts_inaka_com.wiitetech.wiiwatch_default.0
+│   │   │   │   ├── cache_vts_inaka_com.wiitetech.wiiwatch_default.m
+│   │   │   │   ├── cache_vts_labl_com.wiitetech.wiiwatch_default.m
+│   │   │   │   ├── cache_vts_no_pois_com.wiitetech.wiiwatch_default.m
+│   │   │   │   └── debug
+│   │   │   └── files
+│   │   ├── de.axelspringer.yana.zeropage
+│   │   │   └── cache
+│   │   ├── flipboard.boxer.app
+│   │   │   └── files
+│   │   └── service.odtcfactory.sec.com.odtcfactoryservice
+│   │       └── cache
+│   └── media
+│       ├── com.google.android.talk
+│       │   ├── Notifications
+│       │   │   └── hangouts_message.ogg
+│       │   └── Ringtones
+│       │       └── hangouts_incoming_call.ogg
+│       └── com.samsung.android.spay
+├── DCIM
+├── Download
+│   └── WiiWatch.apk
+├── Movies
+├── Music
+├── Notifications
+├── Pictures
+├── Playlists
+├── Podcasts
+├── Ringtones
+├── Samsung
+│   └── Music
+│       └── Over the Horizon.mp3
+├── SmartThings
+│   └── INSTALLATION
+└── WiiWatch_log
+    └── 2020111715.log
+
+261 directories, 37 files
