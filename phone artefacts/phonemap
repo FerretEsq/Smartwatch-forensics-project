@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Thu Jan 28 12:32:29 2021 as: nmap -sVC -p- -Pn -vv -oN phonemap 192.168.137.55
+Nmap scan report for 192.168.137.55
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.137.55 are filtered because of 65535 no-responses
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jan 28 16:12:55 2021 -- 1 IP address (1 host up) scanned in 13225.75 seconds

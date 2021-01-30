@@ -1,0 +1,1126 @@
+01-01 00:00:13.095 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-01 00:00:13.386 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-01 10:25:41.467 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-01 10:25:41.512 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-01 10:28:57.477 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-01 10:28:57.494 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:28:57.496 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:28:57.497 00001 iport/UpgradeReceiver network_process() should_report = true
+01-01 10:28:57.502 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-01 10:28:57.589 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-01 10:28:57.598 00001 iport/UpgradeReceiver check the local report download: 0
+01-01 10:28:57.614 00001 iport/UpgradeReceiver network_process() delta_time = 24193588 min devices_statistics_interval = 5184 min
+01-01 10:28:57.617 00001 iport/UpgradeReceiver devices_statistics() start.
+01-01 10:28:57.640 00001 iport/MobAgentPolicy checkVersionForStatistics() start.
+01-01 10:28:57.644 00001 iport/MobAgentPolicy checkVersionForStatistics() end.
+01-01 10:28:57.648 00001 iport/UpgradeReceiver devices_statistics() end.
+01-01 10:28:57.651 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:28:57.667 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:28:57.696 00544 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:d4:0a:fe'}
+01-01 10:28:57.700 00001 iport/FotaReceiver check version in cycle. gap_time = 24193588 min
+01-01 10:28:57.808 00548 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:d4:0a:fe'}
+01-01 10:29:01.000 00544 iport/HttpTools response=<html><head>
+<META name="description" content="EX3700">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META http-equiv="Pragma" content="no-cache">
+<META HTTP-equiv="Cache-Control" content="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>NETGEAR EX3700</title>
+<script language="javascript" type="text/javascript">
+
+/**
+ * note: conditional comments has been removed in Internet Explorer 10
+ */
+var ie = (function(){
+    var undef,
+        v = 3,
+        div = document.createElement('div'),
+        all = div.getElementsByTagName('i');
+
+    while (
+        div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
+        all[0]
+    );
+
+    return v > 4 ? v : undef;
+
+}());
+
+function checkBrowser() {
+    if (ie && ie < 8)
+        return true;
+
+    return false;
+}
+
+function loadnext() {
+    var showit=(document.layers)?"show":"block";
+    var hideit=(document.layers)?"hide":"none";
+    var el = "alltext";
+    var is_repeater="1";
+    var url = "";
+    
+    if (document.all)
+        document.all(el).style.display = hideit ;
+    else if (document.getElementById)
+        document.getElementById(el).style.display = hideit ;
+    else if (document.layers)
+        document.layers[el].visibility = hideit ;
+
+    if (checkBrowser())
+    {
+        document.getElementById("header_str").innerHTML = "<h4>NETGEAR recommend you to upgrade your Internet Explorer browser to Internet Explorer 8 or higher to use NETGEAR genie for installation.</h4>";
+        return;
+    }
+    
+    if(is_repeater == "1")
+    {
+        /* remove path part of the location url: index.htm should be in the root folder */
+        url = "http://"+top.location.host+"/";
+        if (top.location.pathname.length > 0 && top.location.pathname.indexOf("/", 1) > 0)
+        {
+            top.location.replace(url);
+        }
+    }
+    
+    if("1" == "1")
+    {
+        if ("0" != "1") {
+            top.location.replace(url + "web_login.html");
+        } else if (is_repeater == "1") {
+            if(("1" == "1") 
+                && ("WW" == "WW"
+                    || "" == "WW"))
+                top.location.replace(url + "IA_welcome.htm");
+            else if ("0" == "3")
+            {
+                top.location.replace(url + "IA_review_setting.htm");
+            }
+            else
+                top.location.replace(url + "IA_index.htm");
+        } else if ("0" == "1")
+            top.location.replace("welcome.htm");
+        else
+            top.location.replace("start.htm");
+    }
+    else if (is_repeater == "1")
+    {
+        if ("0" == "3")
+        {
+            top.location.replace(url + "IA_review_setting.htm");
+        }
+        else if ("Enable" == "Disable")
+            top.location.replace(url + "IA_sche_hijack.htm");
+        else if("1" == "1")
+            top.location.replace(url + "IA_hijack.htm");
+        else
+            top.location.replace(url + "start.htm");
+    }
+    else if ("0" == "1")
+        top.location.replace(url + "start.htm");
+    else if ("0" == "1" || 
+             "0" == "3")
+        top.location.replace(url + "traffic_start_update.htm");
+    else
+        top.location.replace("start.htm"); 
+}
+</script></head>
+<body bgcolor="#ffffff" text="#666666" onload="loadnext()"> 
+  <font face="Arial,Helvetica">
+    <div id="header_str" STYLE="position:absolute;left:20px;top:50px;">
+    </div>
+    <div ID="alltext" STYLE="position:absolute;left:50px;top:200px;">
+    <h4>Checking JavaScript Support</h4>
+    <p>To provide an enhanced user interface, this Router uses JavaScript extensively.
+    <P>If this page is not quickly replaced, your Browser does NOT support JavaScript.
+    <P>Please enable JavaScript in your Browser, or use a different Browser.</p>
+    </div>
+  </font>
+</body>
+</html>
+
+
+01-01 10:29:01.850 00548 iport/HttpTools response=<html><head>
+<META name="description" content="EX3700">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META http-equiv="Pragma" content="no-cache">
+<META HTTP-equiv="Cache-Control" content="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>NETGEAR EX3700</title>
+<script language="javascript" type="text/javascript">
+
+/**
+ * note: conditional comments has been removed in Internet Explorer 10
+ */
+var ie = (function(){
+    var undef,
+        v = 3,
+        div = document.createElement('div'),
+        all = div.getElementsByTagName('i');
+
+    while (
+        div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
+        all[0]
+    );
+
+    return v > 4 ? v : undef;
+
+}());
+
+function checkBrowser() {
+    if (ie && ie < 8)
+        return true;
+
+    return false;
+}
+
+function loadnext() {
+    var showit=(document.layers)?"show":"block";
+    var hideit=(document.layers)?"hide":"none";
+    var el = "alltext";
+    var is_repeater="1";
+    var url = "";
+    
+    if (document.all)
+        document.all(el).style.display = hideit ;
+    else if (document.getElementById)
+        document.getElementById(el).style.display = hideit ;
+    else if (document.layers)
+        document.layers[el].visibility = hideit ;
+
+    if (checkBrowser())
+    {
+        document.getElementById("header_str").innerHTML = "<h4>NETGEAR recommend you to upgrade your Internet Explorer browser to Internet Explorer 8 or higher to use NETGEAR genie for installation.</h4>";
+        return;
+    }
+    
+    if(is_repeater == "1")
+    {
+        /* remove path part of the location url: index.htm should be in the root folder */
+        url = "http://"+top.location.host+"/";
+        if (top.location.pathname.length > 0 && top.location.pathname.indexOf("/", 1) > 0)
+        {
+            top.location.replace(url);
+        }
+    }
+    
+    if("1" == "1")
+    {
+        if ("0" != "1") {
+            top.location.replace(url + "web_login.html");
+        } else if (is_repeater == "1") {
+            if(("1" == "1") 
+                && ("WW" == "WW"
+                    || "" == "WW"))
+                top.location.replace(url + "IA_welcome.htm");
+            else if ("0" == "3")
+            {
+                top.location.replace(url + "IA_review_setting.htm");
+            }
+            else
+                top.location.replace(url + "IA_index.htm");
+        } else if ("0" == "1")
+            top.location.replace("welcome.htm");
+        else
+            top.location.replace("start.htm");
+    }
+    else if (is_repeater == "1")
+    {
+        if ("0" == "3")
+        {
+            top.location.replace(url + "IA_review_setting.htm");
+        }
+        else if ("Enable" == "Disable")
+            top.location.replace(url + "IA_sche_hijack.htm");
+        else if("1" == "1")
+            top.location.replace(url + "IA_hijack.htm");
+        else
+            top.location.replace(url + "start.htm");
+    }
+    else if ("0" == "1")
+        top.location.replace(url + "start.htm");
+    else if ("0" == "1" || 
+             "0" == "3")
+        top.location.replace(url + "traffic_start_update.htm");
+    else
+        top.location.replace("start.htm"); 
+}
+</script></head>
+<body bgcolor="#ffffff" text="#666666" onload="loadnext()"> 
+  <font face="Arial,Helvetica">
+    <div id="header_str" STYLE="position:absolute;left:20px;top:50px;">
+    </div>
+    <div ID="alltext" STYLE="position:absolute;left:50px;top:200px;">
+    <h4>Checking JavaScript Support</h4>
+    <p>To provide an enhanced user interface, this Router uses JavaScript extensively.
+    <P>If this page is not quickly replaced, your Browser does NOT support JavaScript.
+    <P>Please enable JavaScript in your Browser, or use a different Browser.</p>
+    </div>
+  </font>
+</body>
+</html>
+
+
+01-01 10:29:01.864 00001 iport/FotaIntentService onInvalidDate()
+01-01 10:29:02.365 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:02.378 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:29:02.390 00001 iport/UpgradeReceiver network_process() should_report = false
+01-01 10:29:02.395 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:29:02.407 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:02.747 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:02.749 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:29:02.750 00001 iport/UpgradeReceiver network_process() should_report = false
+01-01 10:29:02.756 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:29:02.763 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:36.400 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:36.409 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:29:36.411 00001 iport/UpgradeReceiver network_process() should_report = false
+01-01 10:29:36.421 00001 iport/UpgradeReceiver network_process() delta_time = 0 min devices_statistics_interval = 5184 min
+01-01 10:29:36.424 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:29:36.433 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:36.438 00001 iport/FotaReceiver check version in cycle. gap_time = 0 min
+01-01 10:29:36.481 00552 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:d4:0a:fe'}
+01-01 10:29:39.577 00001 iport/FotaIntentService onInvalidDate()
+01-01 10:29:39.602 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:39.620 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:29:39.628 00001 iport/UpgradeReceiver network_process() should_report = false
+01-01 10:29:39.646 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:29:39.656 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:39.984 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:29:39.986 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:29:39.989 00001 iport/UpgradeReceiver network_process() should_report = false
+01-01 10:29:39.993 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:29:40.000 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:31:29.995 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:31:29.998 00001 iport/UpgradeReceiver network_process() start.
+01-01 10:31:30.000 00001 iport/UpgradeReceiver network_process() should_report = false
+01-01 10:31:30.010 00001 iport/UpgradeReceiver network_process() delta_time = 2 min devices_statistics_interval = 5184 min
+01-01 10:31:30.012 00001 iport/UpgradeReceiver network_process() end.
+01-01 10:31:30.022 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-01 10:31:30.040 00001 iport/FotaReceiver check version in cycle. gap_time = 1 min
+01-01 10:31:30.066 00555 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:d4:0a:fe'}
+01-01 10:31:31.685 00555 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-01 10:31:31.689 00001 iport/FotaIntentService onCheckFail()
+10-30 14:36:35.151 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+10-30 17:22:45.038 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+10-30 17:45:38.436 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+10-30 17:45:38.457 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 17:45:38.459 00001 iport/UpgradeReceiver network_process() start.
+10-30 17:45:38.461 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 17:45:38.465 00001 iport/UpgradeReceiver network_process() end.
+10-30 17:45:38.580 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 17:45:39.859 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 17:45:39.861 00001 iport/UpgradeReceiver network_process() start.
+10-30 17:45:39.868 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 17:45:39.879 00001 iport/UpgradeReceiver network_process() end.
+10-30 17:45:39.890 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:47:38.987 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:47:38.999 00001 iport/UpgradeReceiver network_process() start.
+10-30 18:47:39.002 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 18:47:39.007 00001 iport/UpgradeReceiver network_process() delta_time = 2540658 min devices_statistics_interval = 5184 min
+10-30 18:47:39.010 00001 iport/UpgradeReceiver devices_statistics() start.
+10-30 18:47:39.060 00001 iport/MobAgentPolicy checkVersionForStatistics() start.
+10-30 18:47:39.062 00001 iport/MobAgentPolicy checkVersionForStatistics() end.
+10-30 18:47:39.064 00001 iport/UpgradeReceiver devices_statistics() end.
+10-30 18:47:39.066 00001 iport/UpgradeReceiver network_process() end.
+10-30 18:47:39.075 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:47:39.089 00801 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:9e:0d:ff'}
+10-30 18:47:39.091 00001 iport/FotaReceiver check version in cycle. gap_time = 2540656 min
+10-30 18:47:39.168 00805 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:9e:0d:ff'}
+10-30 18:47:40.807 00805 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+10-30 18:47:40.814 00001 iport/FotaIntentService onCheckFail()
+10-30 18:47:43.473 00801 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+10-30 18:51:58.293 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:51:58.307 00001 iport/UpgradeReceiver network_process() start.
+10-30 18:51:58.310 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 18:51:58.319 00001 iport/UpgradeReceiver network_process() end.
+10-30 18:51:58.329 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:51:58.974 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:51:58.977 00001 iport/UpgradeReceiver network_process() start.
+10-30 18:51:58.985 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 18:51:59.005 00001 iport/UpgradeReceiver network_process() end.
+10-30 18:51:59.032 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:59:35.720 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:59:35.734 00001 iport/UpgradeReceiver network_process() start.
+10-30 18:59:35.737 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 18:59:35.742 00001 iport/UpgradeReceiver network_process() delta_time = 11 min devices_statistics_interval = 5184 min
+10-30 18:59:35.744 00001 iport/UpgradeReceiver network_process() end.
+10-30 18:59:35.756 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 18:59:35.761 00001 iport/FotaReceiver check version in cycle. gap_time = 11 min
+10-30 18:59:35.840 00810 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:9e:0d:ff'}
+10-30 18:59:38.724 00810 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+10-30 18:59:38.726 00001 iport/FotaIntentService onCheckFail()
+10-30 19:03:16.946 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+10-30 19:03:16.981 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 19:03:16.984 00001 iport/UpgradeReceiver network_process() start.
+10-30 19:03:16.986 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 19:03:16.998 00001 iport/UpgradeReceiver network_process() end.
+10-30 19:03:17.063 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 19:03:18.421 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 19:03:18.426 00001 iport/UpgradeReceiver network_process() start.
+10-30 19:03:18.429 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 19:03:18.436 00001 iport/UpgradeReceiver network_process() end.
+10-30 19:03:18.443 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 19:12:07.691 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+10-30 19:12:07.702 00001 iport/UpgradeReceiver network_process() start.
+10-30 19:12:07.704 00001 iport/UpgradeReceiver network_process() should_report = false
+10-30 19:12:07.734 00001 iport/UpgradeReceiver network_process() delta_time = 24 min devices_statistics_interval = 5184 min
+10-30 19:12:07.738 00001 iport/UpgradeReceiver network_process() end.
+10-30 19:12:07.749 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+10-30 19:12:07.786 00001 iport/FotaReceiver check version in cycle. gap_time = 12 min
+10-30 19:12:07.912 00998 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:9e:0d:ff'}
+10-30 19:12:09.037 00998 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+10-30 19:12:09.067 00001 iport/FotaIntentService onCheckFail()
+10-30 19:17:17.253 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+10-30 23:14:16.188 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-02 13:04:38.028 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-02 13:04:38.123 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-02 13:04:43.986 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-02 13:04:43.999 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:04:44.001 00001 iport/UpgradeReceiver network_process() start.
+11-02 13:04:44.003 00001 iport/UpgradeReceiver network_process() should_report = true
+11-02 13:04:44.008 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-02 13:04:44.022 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-02 13:04:44.029 00001 iport/UpgradeReceiver check the local report download: 0
+11-02 13:04:44.043 00001 iport/UpgradeReceiver network_process() delta_time = 3977 min devices_statistics_interval = 5184 min
+11-02 13:04:44.046 00001 iport/UpgradeReceiver network_process() end.
+11-02 13:04:44.114 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:04:44.124 00001 iport/FotaReceiver check version in cycle. gap_time = 3952 min
+11-02 13:04:44.239 00296 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 13:04:45.542 00296 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-02 13:04:45.557 00001 iport/FotaIntentService onCheckFail()
+11-02 13:06:11.552 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-02 13:06:11.563 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:06:11.565 00001 iport/UpgradeReceiver network_process() start.
+11-02 13:06:11.567 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 13:06:11.577 00001 iport/UpgradeReceiver network_process() end.
+11-02 13:06:11.585 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:06:12.104 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:06:12.108 00001 iport/UpgradeReceiver network_process() start.
+11-02 13:06:12.111 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 13:06:12.115 00001 iport/UpgradeReceiver network_process() end.
+11-02 13:06:12.122 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:07:10.116 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:07:10.122 00001 iport/UpgradeReceiver network_process() start.
+11-02 13:07:10.124 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 13:07:10.130 00001 iport/UpgradeReceiver network_process() delta_time = 3979 min devices_statistics_interval = 5184 min
+11-02 13:07:10.134 00001 iport/UpgradeReceiver network_process() end.
+11-02 13:07:10.144 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:07:10.154 00001 iport/FotaReceiver check version in cycle. gap_time = 2 min
+11-02 13:07:10.256 00378 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 13:07:11.668 00378 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-02 13:07:11.699 00001 iport/FotaIntentService onCheckFail()
+11-02 13:09:09.276 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:09:09.284 00001 iport/UpgradeReceiver network_process() start.
+11-02 13:09:09.294 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 13:09:09.301 00001 iport/UpgradeReceiver network_process() end.
+11-02 13:09:09.310 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:09:10.452 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 13:09:10.455 00001 iport/UpgradeReceiver network_process() start.
+11-02 13:09:10.458 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 13:09:10.465 00001 iport/UpgradeReceiver network_process() end.
+11-02 13:09:10.473 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:30:46.300 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:30:46.305 00001 iport/UpgradeReceiver network_process() start.
+11-02 14:30:46.307 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 14:30:46.313 00001 iport/UpgradeReceiver network_process() delta_time = 4063 min devices_statistics_interval = 5184 min
+11-02 14:30:46.316 00001 iport/UpgradeReceiver network_process() end.
+11-02 14:30:46.323 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:30:46.330 00001 iport/FotaReceiver check version in cycle. gap_time = 83 min
+11-02 14:30:46.408 00383 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 14:31:42.494 00001 iport/FotaIntentService onInvalidDate()
+11-02 14:33:04.292 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:33:04.303 00001 iport/UpgradeReceiver network_process() start.
+11-02 14:33:04.308 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 14:33:04.326 00001 iport/UpgradeReceiver network_process() end.
+11-02 14:33:04.337 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:33:04.876 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:33:04.879 00001 iport/UpgradeReceiver network_process() start.
+11-02 14:33:04.883 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 14:33:04.889 00001 iport/UpgradeReceiver network_process() end.
+11-02 14:33:04.897 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:33:31.615 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:33:31.632 00001 iport/UpgradeReceiver network_process() start.
+11-02 14:33:31.635 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 14:33:31.646 00001 iport/UpgradeReceiver network_process() delta_time = 4065 min devices_statistics_interval = 5184 min
+11-02 14:33:31.649 00001 iport/UpgradeReceiver network_process() end.
+11-02 14:33:31.687 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 14:33:31.694 00001 iport/FotaReceiver check version in cycle. gap_time = 2 min
+11-02 14:33:31.767 00388 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 15:11:07.338 00001 iport/FotaIntentService onInvalidDate()
+11-02 15:12:04.268 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:12:04.284 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:12:04.288 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:12:04.298 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:12:04.306 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:12:05.083 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:12:05.091 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:12:05.098 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:12:05.105 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:12:05.126 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:12:07.182 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:12:07.188 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:12:07.193 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:12:07.216 00001 iport/UpgradeReceiver network_process() delta_time = 4104 min devices_statistics_interval = 5184 min
+11-02 15:12:07.231 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:12:07.241 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:12:07.249 00001 iport/FotaReceiver check version in cycle. gap_time = 38 min
+11-02 15:12:07.327 00393 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 15:19:53.314 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:19:53.327 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:19:53.331 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:19:53.339 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:19:53.354 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:19:53.925 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:19:53.928 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:19:53.931 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:19:53.937 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:19:53.945 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:19:55.358 00001 iport/FotaIntentService onInvalidDate()
+11-02 15:20:38.197 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:20:38.213 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:20:38.219 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:20:38.236 00001 iport/UpgradeReceiver network_process() delta_time = 4112 min devices_statistics_interval = 5184 min
+11-02 15:20:38.239 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:20:38.264 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:20:38.271 00001 iport/FotaReceiver check version in cycle. gap_time = 8 min
+11-02 15:20:38.347 00398 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 15:23:03.197 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:23:03.202 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:23:03.205 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:23:03.219 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:23:03.225 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:23:03.757 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:23:03.759 00001 iport/UpgradeReceiver network_process() start.
+11-02 15:23:03.761 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 15:23:03.767 00001 iport/UpgradeReceiver network_process() end.
+11-02 15:23:03.775 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 15:23:05.562 00001 iport/FotaIntentService onInvalidDate()
+11-02 16:35:13.136 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 16:35:13.142 00001 iport/UpgradeReceiver network_process() start.
+11-02 16:35:13.158 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 16:35:13.171 00001 iport/UpgradeReceiver network_process() delta_time = 4187 min devices_statistics_interval = 5184 min
+11-02 16:35:13.175 00001 iport/UpgradeReceiver network_process() end.
+11-02 16:35:13.187 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 16:35:13.193 00001 iport/FotaReceiver check version in cycle. gap_time = 74 min
+11-02 16:35:13.240 00403 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-02 16:35:14.333 00403 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-02 16:35:14.336 00001 iport/FotaIntentService onCheckFail()
+11-02 22:52:20.651 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 22:52:20.665 00001 iport/UpgradeReceiver network_process() start.
+11-02 22:52:20.667 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 22:52:20.675 00001 iport/UpgradeReceiver network_process() end.
+11-02 22:52:20.689 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-02 22:52:21.310 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-02 22:52:21.317 00001 iport/UpgradeReceiver network_process() start.
+11-02 22:52:21.321 00001 iport/UpgradeReceiver network_process() should_report = false
+11-02 22:52:21.330 00001 iport/UpgradeReceiver network_process() end.
+11-02 22:52:21.343 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 14:04:32.247 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-03 15:38:09.872 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:38:09.883 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:38:09.886 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:38:09.890 00001 iport/UpgradeReceiver network_process() delta_time = 5570 min devices_statistics_interval = 5184 min
+11-03 15:38:09.919 00001 iport/UpgradeReceiver devices_statistics() start.
+11-03 15:38:09.965 00001 iport/MobAgentPolicy checkVersionForStatistics() start.
+11-03 15:38:09.968 00001 iport/MobAgentPolicy checkVersionForStatistics() end.
+11-03 15:38:09.970 00001 iport/UpgradeReceiver devices_statistics() end.
+11-03 15:38:09.973 00653 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}11-03 15:38:09.973 00001 iport/UpgradeReceiver network_process() end.
+
+11-03 15:38:09.986 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:38:09.998 00001 iport/FotaReceiver check version in cycle. gap_time = 1382 min
+11-03 15:38:10.091 00657 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-03 15:38:12.155 00653 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-03 15:38:12.933 00657 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-03 15:38:12.945 00001 iport/FotaIntentService onCheckFail()
+11-03 15:44:32.863 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-03 15:44:32.892 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:44:32.894 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:44:32.896 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:44:32.904 00001 iport/UpgradeReceiver network_process() end.
+11-03 15:44:32.913 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:44:33.773 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:44:33.790 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:44:33.799 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:44:33.810 00001 iport/UpgradeReceiver network_process() end.
+11-03 15:44:33.825 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:47:38.283 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:47:38.298 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:47:38.302 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:47:38.311 00001 iport/UpgradeReceiver network_process() delta_time = 9 min devices_statistics_interval = 5184 min
+11-03 15:47:38.313 00001 iport/UpgradeReceiver network_process() end.
+11-03 15:47:38.323 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:47:38.348 00001 iport/FotaReceiver check version in cycle. gap_time = 9 min
+11-03 15:47:38.436 00698 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-03 15:47:48.159 00698 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-03 15:47:48.255 00001 iport/FotaIntentService onCheckFail()
+11-03 23:48:40.401 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-03 15:48:43.517 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:48:43.519 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:48:43.521 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:48:43.526 00001 iport/UpgradeReceiver network_process() end.
+11-03 15:48:43.648 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:48:44.558 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:48:44.560 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:48:44.563 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:48:44.568 00001 iport/UpgradeReceiver network_process() end.
+11-03 15:48:44.575 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:48:48.531 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:48:48.542 00001 iport/UpgradeReceiver network_process() start.
+11-03 15:48:48.544 00001 iport/UpgradeReceiver network_process() should_report = false
+11-03 15:48:48.550 00001 iport/UpgradeReceiver network_process() delta_time = 490 min devices_statistics_interval = 5184 min
+11-03 15:48:48.552 00001 iport/UpgradeReceiver network_process() end.
+11-03 15:48:48.559 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-03 15:48:48.568 00001 iport/FotaReceiver check version in cycle. gap_time = 481 min
+11-03 15:48:48.653 00769 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a0:cd:fb'}
+11-03 15:48:50.418 00769 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-03 15:48:50.422 00001 iport/FotaIntentService onCheckFail()
+11-03 16:00:39.686 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-04 13:14:12.454 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-04 13:14:12.486 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-04 13:14:20.106 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-04 13:14:20.117 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-04 13:14:20.119 00001 iport/UpgradeReceiver network_process() start.
+11-04 13:14:20.121 00001 iport/UpgradeReceiver network_process() should_report = true
+11-04 13:14:20.125 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-04 13:14:20.142 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-04 13:14:20.149 00001 iport/UpgradeReceiver check the local report download: 0
+11-04 13:14:20.200 00001 iport/UpgradeReceiver network_process() delta_time = 1776 min devices_statistics_interval = 5184 min
+11-04 13:14:20.202 00001 iport/UpgradeReceiver network_process() end.
+11-04 13:14:20.264 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-04 13:14:20.274 00001 iport/FotaReceiver check version in cycle. gap_time = 1285 min
+11-04 13:14:20.388 00301 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:62:ca:fb'}
+11-04 13:14:22.512 00301 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-04 13:14:22.519 00001 iport/FotaIntentService onCheckFail()
+11-04 13:16:57.807 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-04 13:16:57.829 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-04 13:16:57.832 00001 iport/UpgradeReceiver network_process() start.
+11-04 13:16:57.835 00001 iport/UpgradeReceiver network_process() should_report = false
+11-04 13:16:57.841 00001 iport/UpgradeReceiver network_process() end.
+11-04 13:16:57.958 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-04 13:16:59.165 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-04 13:16:59.172 00001 iport/UpgradeReceiver network_process() start.
+11-04 13:16:59.176 00001 iport/UpgradeReceiver network_process() should_report = false
+11-04 13:16:59.182 00001 iport/UpgradeReceiver network_process() end.
+11-04 13:16:59.190 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-04 20:24:00.254 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-04 20:24:00.268 00001 iport/UpgradeReceiver network_process() start.
+11-04 20:24:00.270 00001 iport/UpgradeReceiver network_process() should_report = false
+11-04 20:24:00.275 00001 iport/UpgradeReceiver network_process() delta_time = 2205 min devices_statistics_interval = 5184 min
+11-04 20:24:00.277 00001 iport/UpgradeReceiver network_process() end.
+11-04 20:24:00.285 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-04 20:24:00.299 00001 iport/FotaReceiver check version in cycle. gap_time = 429 min
+11-04 20:24:00.387 00409 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:62:ca:fb'}
+11-04 20:24:02.119 00409 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-04 20:24:02.131 00001 iport/FotaIntentService onCheckFail()
+11-04 20:33:49.882 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-04 20:33:49.907 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-04 20:33:49.910 00001 iport/UpgradeReceiver network_process() start.
+11-04 20:33:49.913 00001 iport/UpgradeReceiver network_process() should_report = false
+11-04 20:33:49.920 00001 iport/UpgradeReceiver network_process() end.
+11-04 20:33:50.037 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-04 20:33:51.311 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-04 20:33:51.314 00001 iport/UpgradeReceiver network_process() start.
+11-04 20:33:51.316 00001 iport/UpgradeReceiver network_process() should_report = false
+11-04 20:33:51.322 00001 iport/UpgradeReceiver network_process() end.
+11-04 20:33:51.330 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-05 13:13:04.890 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-05 13:13:21.496 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-05 13:13:21.499 00001 iport/UpgradeReceiver network_process() start.
+11-05 13:13:21.500 00001 iport/UpgradeReceiver network_process() should_report = false
+11-05 13:13:21.530 00001 iport/UpgradeReceiver network_process() delta_time = 3215 min devices_statistics_interval = 5184 min
+11-05 13:13:21.536 00001 iport/UpgradeReceiver network_process() end.
+11-05 13:13:21.546 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-05 13:13:21.603 00001 iport/FotaReceiver check version in cycle. gap_time = 1009 min
+11-05 13:13:21.660 00674 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:62:ca:fb'}
+11-05 13:13:24.121 00674 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-05 13:13:24.133 00001 iport/FotaIntentService onCheckFail()
+11-05 17:13:27.156 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-10 13:07:06.271 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-10 13:07:06.366 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-10 13:07:14.148 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-10 13:07:14.162 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-10 13:07:14.164 00001 iport/UpgradeReceiver network_process() start.
+11-10 13:07:14.166 00001 iport/UpgradeReceiver network_process() should_report = true
+11-10 13:07:14.173 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-10 13:07:14.188 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-10 13:07:14.195 00001 iport/UpgradeReceiver check the local report download: 0
+11-10 13:07:14.247 00001 iport/UpgradeReceiver network_process() delta_time = 10409 min devices_statistics_interval = 5184 min
+11-10 13:07:14.249 00001 iport/UpgradeReceiver devices_statistics() start.
+11-10 13:07:14.267 00001 iport/MobAgentPolicy checkVersionForStatistics() start.
+11-10 13:07:14.270 00001 iport/MobAgentPolicy checkVersionForStatistics() end.
+11-10 13:07:14.272 00001 iport/UpgradeReceiver devices_statistics() end.
+11-10 13:07:14.274 00001 iport/UpgradeReceiver network_process() end.
+11-10 13:07:14.294 00304 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-10 13:07:14.391 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-10 13:07:14.406 00001 iport/FotaReceiver check version in cycle. gap_time = 7193 min
+11-10 13:07:14.454 00308 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-10 13:07:19.632 00304 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-10 13:07:19.844 00308 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-10 13:07:19.853 00001 iport/FotaIntentService onCheckFail()
+11-10 13:15:48.840 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-10 13:15:48.867 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-10 13:15:48.869 00001 iport/UpgradeReceiver network_process() start.
+11-10 13:15:48.871 00001 iport/UpgradeReceiver network_process() should_report = false
+11-10 13:15:48.876 00001 iport/UpgradeReceiver network_process() end.
+11-10 13:15:48.990 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-10 13:15:50.108 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-10 13:15:50.110 00001 iport/UpgradeReceiver network_process() start.
+11-10 13:15:50.112 00001 iport/UpgradeReceiver network_process() should_report = false
+11-10 13:15:50.117 00001 iport/UpgradeReceiver network_process() end.
+11-10 13:15:50.123 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-10 14:19:17.069 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-10 14:19:17.123 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-10 14:19:17.128 00001 iport/UpgradeReceiver network_process() start.
+11-10 14:19:17.131 00001 iport/UpgradeReceiver network_process() should_report = false
+11-10 14:19:17.140 00001 iport/UpgradeReceiver network_process() delta_time = 72 min devices_statistics_interval = 5184 min
+11-10 14:19:17.144 00001 iport/UpgradeReceiver network_process() end.
+11-10 14:19:17.158 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-10 14:19:17.187 00001 iport/FotaReceiver check version in cycle. gap_time = 72 min
+11-10 14:19:17.289 00536 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-10 14:19:18.498 00536 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-10 14:19:18.504 00001 iport/FotaIntentService onCheckFail()
+11-10 14:21:35.693 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-10 14:21:35.725 00001 iport/UpgradeReceiver network_process() start.
+11-10 14:21:35.728 00001 iport/UpgradeReceiver network_process() should_report = false
+11-10 14:21:35.736 00001 iport/UpgradeReceiver network_process() end.
+11-10 14:21:35.748 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-10 14:21:36.265 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-10 14:21:36.269 00001 iport/UpgradeReceiver network_process() start.
+11-10 14:21:36.273 00001 iport/UpgradeReceiver network_process() should_report = false
+11-10 14:21:36.280 00001 iport/UpgradeReceiver network_process() end.
+11-10 14:21:36.288 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-11 03:06:51.851 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-11 12:29:44.346 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-11 12:29:45.762 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-11 12:29:45.765 00001 iport/UpgradeReceiver network_process() start.
+11-11 12:29:45.767 00001 iport/UpgradeReceiver network_process() should_report = false
+11-11 12:29:45.773 00001 iport/UpgradeReceiver network_process() delta_time = 1402 min devices_statistics_interval = 5184 min
+11-11 12:29:45.775 00001 iport/UpgradeReceiver network_process() end.
+11-11 12:29:45.787 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-11 12:29:45.800 00001 iport/FotaReceiver check version in cycle. gap_time = 1330 min
+11-11 12:29:45.898 00698 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-11 12:30:42.030 00001 iport/FotaIntentService onInvalidDate()
+11-12 13:22:40.827 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-12 13:22:40.860 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-12 13:22:48.521 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-12 13:22:48.532 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 13:22:48.534 00001 iport/UpgradeReceiver network_process() start.
+11-12 13:22:48.535 00001 iport/UpgradeReceiver network_process() should_report = true
+11-12 13:22:48.540 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-12 13:22:48.555 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-12 13:22:48.563 00001 iport/UpgradeReceiver check the local report download: 0
+11-12 13:22:48.583 00001 iport/UpgradeReceiver network_process() delta_time = 2895 min devices_statistics_interval = 5184 min
+11-12 13:22:48.585 00001 iport/UpgradeReceiver network_process() end.
+11-12 13:22:48.704 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 13:22:48.722 00001 iport/FotaReceiver check version in cycle. gap_time = 1493 min
+11-12 13:22:48.834 00301 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:1c:ca:fb'}
+11-12 13:22:50.220 00301 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-12 13:22:50.250 00001 iport/FotaIntentService onCheckFail()
+11-12 13:23:54.441 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-12 13:23:54.467 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 13:23:54.470 00001 iport/UpgradeReceiver network_process() start.
+11-12 13:23:54.472 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 13:23:54.479 00001 iport/UpgradeReceiver network_process() end.
+11-12 13:23:54.596 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 13:23:55.982 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 13:23:55.985 00001 iport/UpgradeReceiver network_process() start.
+11-12 13:23:55.988 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 13:23:55.993 00001 iport/UpgradeReceiver network_process() end.
+11-12 13:23:56.001 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:20:58.679 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:20:58.696 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:20:58.698 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:20:58.707 00001 iport/UpgradeReceiver network_process() delta_time = 2953 min devices_statistics_interval = 5184 min
+11-12 14:20:58.710 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:20:58.722 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:20:58.745 00001 iport/FotaReceiver check version in cycle. gap_time = 58 min
+11-12 14:20:58.835 00353 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:1c:ca:fb'}
+11-12 14:22:36.291 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:22:36.300 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:22:36.307 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:22:36.319 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:22:36.327 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:22:36.870 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:22:36.901 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:22:36.904 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:22:36.910 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:22:36.917 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:22:37.604 00001 iport/FotaIntentService onInvalidDate()
+11-12 14:22:39.203 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:22:39.212 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:22:39.215 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:22:39.221 00001 iport/UpgradeReceiver network_process() delta_time = 2955 min devices_statistics_interval = 5184 min
+11-12 14:22:39.224 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:22:39.233 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:22:39.239 00001 iport/FotaReceiver check version in cycle. gap_time = 1 min
+11-12 14:22:39.289 00358 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:1c:ca:fb'}
+11-12 14:27:35.281 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:27:35.296 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:27:35.304 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:27:35.310 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:27:35.324 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:27:35.871 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:27:35.874 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:27:35.876 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:27:35.883 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:27:35.891 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:27:38.472 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:27:38.475 00001 iport/UpgradeReceiver network_process() start.
+11-12 14:27:38.478 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 14:27:38.487 00001 iport/UpgradeReceiver network_process() delta_time = 2960 min devices_statistics_interval = 5184 min
+11-12 14:27:38.490 00001 iport/UpgradeReceiver network_process() end.
+11-12 14:27:38.503 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 14:27:38.510 00001 iport/FotaReceiver check version in cycle. gap_time = 4 min
+11-12 14:27:38.568 00362 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:1c:ca:fb'}
+11-12 14:27:39.266 00001 iport/FotaIntentService onInvalidDate()
+11-12 17:22:59.283 00362 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-12 17:22:59.299 00001 iport/FotaIntentService onCheckFail()
+11-12 17:59:47.271 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 17:59:47.278 00001 iport/UpgradeReceiver network_process() start.
+11-12 17:59:47.285 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 17:59:47.292 00001 iport/UpgradeReceiver network_process() end.
+11-12 17:59:47.301 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-12 17:59:47.842 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-12 17:59:47.845 00001 iport/UpgradeReceiver network_process() start.
+11-12 17:59:47.848 00001 iport/UpgradeReceiver network_process() should_report = false
+11-12 17:59:47.855 00001 iport/UpgradeReceiver network_process() end.
+11-12 17:59:47.863 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-13 13:03:41.733 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-13 13:03:41.773 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-13 13:03:50.238 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-13 13:03:50.250 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-13 13:03:50.252 00001 iport/UpgradeReceiver network_process() start.
+11-13 13:03:50.254 00001 iport/UpgradeReceiver network_process() should_report = true
+11-13 13:03:50.259 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-13 13:03:50.273 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-13 13:03:50.280 00001 iport/UpgradeReceiver check the local report download: 0
+11-13 13:03:50.315 00001 iport/UpgradeReceiver network_process() delta_time = 4316 min devices_statistics_interval = 5184 min
+11-13 13:03:50.317 00001 iport/UpgradeReceiver network_process() end.
+11-13 13:03:50.380 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-13 13:03:50.392 00001 iport/FotaReceiver check version in cycle. gap_time = 1356 min
+11-13 13:03:50.513 00301 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:ea:c9:fb'}
+11-13 13:03:52.449 00301 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-13 13:03:52.462 00001 iport/FotaIntentService onCheckFail()
+11-13 13:08:21.369 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-13 13:08:21.394 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-13 13:08:21.396 00001 iport/UpgradeReceiver network_process() start.
+11-13 13:08:21.398 00001 iport/UpgradeReceiver network_process() should_report = false
+11-13 13:08:21.404 00001 iport/UpgradeReceiver network_process() end.
+11-13 13:08:21.411 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-13 13:08:22.627 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-13 13:08:22.630 00001 iport/UpgradeReceiver network_process() start.
+11-13 13:08:22.633 00001 iport/UpgradeReceiver network_process() should_report = false
+11-13 13:08:22.640 00001 iport/UpgradeReceiver network_process() end.
+11-13 13:08:22.650 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-13 14:11:32.886 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 14:21:35.005 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 14:21:35.038 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-14 14:21:42.412 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 14:21:42.423 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:21:42.425 00001 iport/UpgradeReceiver network_process() start.
+11-14 14:21:42.426 00001 iport/UpgradeReceiver network_process() should_report = true
+11-14 14:21:42.431 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-14 14:21:42.445 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-14 14:21:42.453 00001 iport/UpgradeReceiver check the local report download: 0
+11-14 14:21:42.487 00001 iport/UpgradeReceiver network_process() delta_time = 5834 min devices_statistics_interval = 5184 min
+11-14 14:21:42.489 00001 iport/UpgradeReceiver devices_statistics() start.
+11-14 14:21:42.508 00001 iport/MobAgentPolicy checkVersionForStatistics() start.
+11-14 14:21:42.511 00001 iport/MobAgentPolicy checkVersionForStatistics() end.
+11-14 14:21:42.513 00001 iport/UpgradeReceiver devices_statistics() end.
+11-14 14:21:42.515 00001 iport/UpgradeReceiver network_process() end.
+11-14 14:21:42.538 00314 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:ec:cc:fb'}
+11-14 14:21:42.578 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:21:42.591 00001 iport/FotaReceiver check version in cycle. gap_time = 1517 min
+11-14 14:21:42.645 00318 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:ec:cc:fb'}
+11-14 14:21:43.666 00314 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-14 14:21:43.696 00318 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-14 14:21:43.709 00001 iport/FotaIntentService onCheckFail()
+11-14 14:29:38.473 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 14:29:38.499 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:29:38.501 00001 iport/UpgradeReceiver network_process() start.
+11-14 14:29:38.504 00001 iport/UpgradeReceiver network_process() should_report = false
+11-14 14:29:38.511 00001 iport/UpgradeReceiver network_process() end.
+11-14 14:29:38.627 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:29:39.896 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:29:39.898 00001 iport/UpgradeReceiver network_process() start.
+11-14 14:29:39.908 00001 iport/UpgradeReceiver network_process() should_report = false
+11-14 14:29:39.915 00001 iport/UpgradeReceiver network_process() end.
+11-14 14:29:39.922 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:37:02.211 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:37:02.221 00001 iport/UpgradeReceiver network_process() start.
+11-14 14:37:02.225 00001 iport/UpgradeReceiver network_process() should_report = false
+11-14 14:37:02.230 00001 iport/UpgradeReceiver network_process() delta_time = 15 min devices_statistics_interval = 5184 min
+11-14 14:37:02.232 00001 iport/UpgradeReceiver network_process() end.
+11-14 14:37:02.245 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 14:37:02.266 00001 iport/FotaReceiver check version in cycle. gap_time = 15 min
+11-14 14:37:02.408 00418 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:ec:cc:fb'}
+11-14 14:37:03.875 00418 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-14 14:37:03.908 00001 iport/FotaIntentService onCheckFail()
+11-14 14:38:46.604 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 15:17:36.002 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 15:17:36.019 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 15:17:36.022 00001 iport/UpgradeReceiver network_process() start.
+11-14 15:17:36.034 00001 iport/UpgradeReceiver network_process() should_report = false
+11-14 15:17:36.042 00001 iport/UpgradeReceiver network_process() end.
+11-14 15:17:36.162 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 15:17:36.875 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 15:17:36.879 00001 iport/UpgradeReceiver network_process() start.
+11-14 15:17:36.883 00001 iport/UpgradeReceiver network_process() should_report = false
+11-14 15:17:36.891 00001 iport/UpgradeReceiver network_process() end.
+11-14 15:17:36.900 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 23:44:04.597 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-14 23:44:04.608 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-14 23:44:04.611 00001 iport/UpgradeReceiver network_process() start.
+11-14 23:44:04.613 00001 iport/UpgradeReceiver network_process() should_report = false
+11-14 23:44:04.619 00001 iport/UpgradeReceiver network_process() delta_time = 562 min devices_statistics_interval = 5184 min
+11-14 23:44:04.622 00001 iport/UpgradeReceiver network_process() end.
+11-14 23:44:04.738 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-14 23:44:04.761 00001 iport/FotaReceiver check version in cycle. gap_time = 547 min
+11-14 23:44:04.882 00621 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:ec:cc:fb'}
+11-14 23:44:06.407 00621 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-14 23:44:06.412 00001 iport/FotaIntentService onCheckFail()
+11-16 14:23:31.786 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-16 14:23:31.827 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-16 14:23:38.464 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-16 14:23:38.478 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-16 14:23:38.480 00001 iport/UpgradeReceiver network_process() start.
+11-16 14:23:38.482 00001 iport/UpgradeReceiver network_process() should_report = true
+11-16 14:23:38.487 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-16 14:23:38.507 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-16 14:23:38.514 00001 iport/UpgradeReceiver check the local report download: 0
+11-16 14:23:38.535 00001 iport/UpgradeReceiver network_process() delta_time = 2881 min devices_statistics_interval = 5184 min
+11-16 14:23:38.538 00001 iport/UpgradeReceiver network_process() end.
+11-16 14:23:38.603 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-16 14:23:38.631 00001 iport/FotaReceiver check version in cycle. gap_time = 2319 min
+11-16 14:23:38.691 00291 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:6c:ca:fb'}
+11-16 14:23:40.036 00291 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-16 14:23:40.042 00001 iport/FotaIntentService onCheckFail()
+11-16 15:49:07.316 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-16 15:49:07.346 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-16 15:49:07.348 00001 iport/UpgradeReceiver network_process() start.
+11-16 15:49:07.351 00001 iport/UpgradeReceiver network_process() should_report = false
+11-16 15:49:07.358 00001 iport/UpgradeReceiver network_process() end.
+11-16 15:49:07.367 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-16 15:49:08.152 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-16 15:49:08.167 00001 iport/UpgradeReceiver network_process() start.
+11-16 15:49:08.170 00001 iport/UpgradeReceiver network_process() should_report = false
+11-16 15:49:08.176 00001 iport/UpgradeReceiver network_process() end.
+11-16 15:49:08.184 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-16 23:24:45.227 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-16 23:24:45.246 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-16 23:24:45.249 00001 iport/UpgradeReceiver network_process() start.
+11-16 23:24:45.251 00001 iport/UpgradeReceiver network_process() should_report = false
+11-16 23:24:45.262 00001 iport/UpgradeReceiver network_process() delta_time = 3423 min devices_statistics_interval = 5184 min
+11-16 23:24:45.266 00001 iport/UpgradeReceiver network_process() end.
+11-16 23:24:45.392 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-16 23:24:45.450 00001 iport/FotaReceiver check version in cycle. gap_time = 541 min
+11-16 23:24:45.640 00441 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:6c:ca:fb'}
+11-17 15:05:24.970 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-17 15:05:24.995 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-17 15:05:31.533 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-17 15:05:31.546 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:05:31.548 00001 iport/UpgradeReceiver network_process() start.
+11-17 15:05:31.551 00001 iport/UpgradeReceiver network_process() should_report = true
+11-17 15:05:31.557 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-17 15:05:31.571 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-17 15:05:31.578 00001 iport/UpgradeReceiver check the local report download: 0
+11-17 15:05:31.605 00001 iport/UpgradeReceiver network_process() delta_time = 4363 min devices_statistics_interval = 5184 min
+11-17 15:05:31.607 00001 iport/UpgradeReceiver network_process() end.
+11-17 15:05:31.674 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:05:31.692 00001 iport/FotaReceiver check version in cycle. gap_time = 940 min
+11-17 15:05:31.802 00301 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-17 15:05:33.442 00301 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-17 15:05:33.446 00001 iport/FotaIntentService onCheckFail()
+11-17 15:06:36.487 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-17 15:06:36.513 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:06:36.515 00001 iport/UpgradeReceiver network_process() start.
+11-17 15:06:36.518 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 15:06:36.525 00001 iport/UpgradeReceiver network_process() end.
+11-17 15:06:36.641 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:06:37.800 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:06:37.813 00001 iport/UpgradeReceiver network_process() start.
+11-17 15:06:37.816 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 15:06:37.822 00001 iport/UpgradeReceiver network_process() end.
+11-17 15:06:37.830 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:06:43.216 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:06:43.218 00001 iport/UpgradeReceiver network_process() start.
+11-17 15:06:43.219 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 15:06:43.243 00001 iport/UpgradeReceiver network_process() delta_time = 4365 min devices_statistics_interval = 5184 min
+11-17 15:06:43.245 00001 iport/UpgradeReceiver network_process() end.
+11-17 15:06:43.277 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:06:43.292 00001 iport/FotaReceiver check version in cycle. gap_time = 1 min
+11-17 15:06:43.384 00373 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-17 15:06:44.505 00373 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-17 15:06:44.530 00001 iport/FotaIntentService onCheckFail()
+11-17 15:14:57.459 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-17 15:14:57.489 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:14:57.491 00001 iport/UpgradeReceiver network_process() start.
+11-17 15:14:57.494 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 15:14:57.501 00001 iport/UpgradeReceiver network_process() end.
+11-17 15:14:57.617 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:14:58.769 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 15:14:58.772 00001 iport/UpgradeReceiver network_process() start.
+11-17 15:14:58.775 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 15:14:58.781 00001 iport/UpgradeReceiver network_process() end.
+11-17 15:14:58.789 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 16:04:27.062 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 16:04:27.075 00001 iport/UpgradeReceiver network_process() start.
+11-17 16:04:27.077 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 16:04:27.082 00001 iport/UpgradeReceiver network_process() delta_time = 4422 min devices_statistics_interval = 5184 min
+11-17 16:04:27.085 00001 iport/UpgradeReceiver network_process() end.
+11-17 16:04:27.092 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 16:04:27.109 00001 iport/FotaReceiver check version in cycle. gap_time = 57 min
+11-17 16:04:27.179 00678 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f6:cc:fb'}
+11-17 16:04:28.327 00678 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-17 16:04:28.358 00001 iport/FotaIntentService onCheckFail()
+11-17 16:05:50.658 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 16:05:50.710 00001 iport/UpgradeReceiver network_process() start.
+11-17 16:05:50.712 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 16:05:50.719 00001 iport/UpgradeReceiver network_process() end.
+11-17 16:05:50.732 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 16:05:51.345 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 16:05:51.348 00001 iport/UpgradeReceiver network_process() start.
+11-17 16:05:51.353 00001 iport/UpgradeReceiver network_process() should_report = false
+11-17 16:05:51.360 00001 iport/UpgradeReceiver network_process() end.
+11-17 16:05:51.369 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 18:02:18.734 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-17 18:02:18.772 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-17 18:02:26.500 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-17 18:02:26.511 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+11-17 18:02:26.513 00001 iport/UpgradeReceiver network_process() start.
+11-17 18:02:26.515 00001 iport/UpgradeReceiver network_process() should_report = true
+11-17 18:02:26.520 00001 iport/UpgradeReceiver network_process() network upgrade report
+11-17 18:02:26.535 00001 iport/UpgradeReceiver check the local report upgrade: 0
+11-17 18:02:26.542 00001 iport/UpgradeReceiver check the local report download: 0
+11-17 18:02:26.584 00001 iport/UpgradeReceiver network_process() delta_time = 4540 min devices_statistics_interval = 5184 min
+11-17 18:02:26.586 00001 iport/UpgradeReceiver network_process() end.
+11-17 18:02:26.702 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+11-17 18:02:26.722 00001 iport/FotaReceiver check version in cycle. gap_time = 117 min
+11-17 18:02:26.839 00301 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:7c:c9:fb'}
+11-17 18:02:29.335 00301 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+11-17 18:02:29.342 00001 iport/FotaIntentService onCheckFail()
+11-29 12:20:17.571 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-29 12:20:17.593 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+11-29 21:17:47.095 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+11-29 21:17:47.125 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-01 02:29:23.418 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-01 02:29:23.462 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-01 20:50:03.911 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-10 01:57:37.358 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-10 01:57:37.412 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-10 01:57:45.516 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-10 02:00:55.506 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-10 02:00:55.518 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-10 02:00:55.520 00001 iport/UpgradeReceiver network_process() start.
+01-10 02:00:55.521 00001 iport/UpgradeReceiver network_process() should_report = true
+01-10 02:00:55.526 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-10 02:00:55.540 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-10 02:00:55.547 00001 iport/UpgradeReceiver check the local report download: 0
+01-10 02:00:55.579 00001 iport/UpgradeReceiver network_process() delta_time = -2549540 min devices_statistics_interval = 5184 min
+01-10 02:00:55.581 00001 iport/UpgradeReceiver network_process() end.
+01-10 02:00:55.591 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-10 02:00:55.612 00001 iport/FotaReceiver check version in cycle. gap_time = -2554081 min
+01-27 17:09:41.770 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-27 17:09:41.796 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:09:41.799 00001 iport/UpgradeReceiver network_process() start.
+01-27 17:09:41.801 00001 iport/UpgradeReceiver network_process() should_report = false
+01-27 17:09:41.810 00001 iport/UpgradeReceiver network_process() delta_time = 106727 min devices_statistics_interval = 5184 min
+01-27 17:09:41.813 00001 iport/UpgradeReceiver devices_statistics() start.
+01-27 17:09:41.860 00001 iport/MobAgentPolicy checkVersionForStatistics() start.
+01-27 17:09:41.965 00001 iport/MobAgentPolicy checkVersionForStatistics() end.
+01-27 17:09:41.968 00001 iport/UpgradeReceiver devices_statistics() end.
+01-27 17:09:41.971 00001 iport/UpgradeReceiver network_process() end.
+01-27 17:09:41.997 00154 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:b6:cb:fb'}
+01-27 17:09:42.106 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:09:42.118 00001 iport/FotaReceiver check version in cycle. gap_time = 102187 min
+01-27 17:09:42.185 00158 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:b6:cb:fb'}
+01-27 17:09:43.153 00154 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-27 17:09:43.259 00158 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-27 17:09:43.282 00001 iport/FotaIntentService onCheckFail()
+01-27 17:09:44.905 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-27 17:16:55.470 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-27 17:28:45.049 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-27 17:28:45.071 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:28:45.073 00001 iport/UpgradeReceiver network_process() start.
+01-27 17:28:45.075 00001 iport/UpgradeReceiver network_process() should_report = true
+01-27 17:28:45.080 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-27 17:28:45.094 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-27 17:28:45.101 00001 iport/UpgradeReceiver check the local report download: 0
+01-27 17:28:45.113 00001 iport/UpgradeReceiver network_process() delta_time = 19 min devices_statistics_interval = 5184 min
+01-27 17:28:45.116 00001 iport/UpgradeReceiver network_process() end.
+01-27 17:28:45.328 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:28:45.448 00001 iport/FotaReceiver check version in cycle. gap_time = 19 min
+01-27 17:28:45.626 00186 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:f4:c9:fb'}
+01-27 17:28:46.764 00186 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-27 17:28:46.770 00001 iport/FotaIntentService onCheckFail()
+01-27 17:28:46.957 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-27 17:54:23.960 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-27 17:54:23.984 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:54:23.986 00001 iport/UpgradeReceiver network_process() start.
+01-27 17:54:23.988 00001 iport/UpgradeReceiver network_process() should_report = true
+01-27 17:54:23.993 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-27 17:54:24.008 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-27 17:54:24.016 00001 iport/UpgradeReceiver check the local report download: 0
+01-27 17:54:24.071 00001 iport/UpgradeReceiver network_process() delta_time = 44 min devices_statistics_interval = 5184 min
+01-27 17:54:24.072 00001 iport/UpgradeReceiver network_process() end.
+01-27 17:54:24.224 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:54:24.298 00001 iport/FotaReceiver check version in cycle. gap_time = 25 min
+01-27 17:54:24.520 00181 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:9e:ca:fb'}
+01-27 17:54:25.791 00181 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-27 17:54:25.801 00001 iport/FotaIntentService onCheckFail()
+01-27 17:54:26.278 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-27 17:55:58.685 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-27 17:55:58.710 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:55:58.712 00001 iport/UpgradeReceiver network_process() start.
+01-27 17:55:58.714 00001 iport/UpgradeReceiver network_process() should_report = true
+01-27 17:55:58.722 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-27 17:55:58.742 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-27 17:55:58.752 00001 iport/UpgradeReceiver check the local report download: 0
+01-27 17:55:58.804 00001 iport/UpgradeReceiver network_process() delta_time = 46 min devices_statistics_interval = 5184 min
+01-27 17:55:58.807 00001 iport/UpgradeReceiver network_process() end.
+01-27 17:55:58.898 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-27 17:55:58.922 00001 iport/FotaReceiver check version in cycle. gap_time = 1 min
+01-27 17:55:59.028 00171 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:08:ca:fb'}
+01-27 17:56:00.298 00171 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-27 17:56:00.325 00001 iport/FotaIntentService onCheckFail()
+01-27 17:56:00.752 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-28 12:22:30.564 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-28 12:22:30.591 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-28 12:22:30.592 00001 iport/UpgradeReceiver network_process() start.
+01-28 12:22:30.594 00001 iport/UpgradeReceiver network_process() should_report = true
+01-28 12:22:30.599 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-28 12:22:30.613 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-28 12:22:30.620 00001 iport/UpgradeReceiver check the local report download: 0
+01-28 12:22:30.633 00001 iport/UpgradeReceiver network_process() delta_time = 1152 min devices_statistics_interval = 5184 min
+01-28 12:22:30.635 00001 iport/UpgradeReceiver network_process() end.
+01-28 12:22:30.838 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-28 12:22:30.851 00001 iport/FotaReceiver check version in cycle. gap_time = 1106 min
+01-28 12:22:30.994 00171 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a4:c9:fb'}
+01-28 12:22:32.098 00171 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-28 12:22:32.104 00001 iport/FotaIntentService onCheckFail()
+01-28 12:22:33.224 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
+01-28 16:22:35.306 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-30 14:26:47.514 00001 iport/StorageUtils get_update_file_path() path = /data/data/com.example.updatafota/files/adupsfota/update.zip
+01-30 14:26:47.578 00001 iport/UpgradeReceiver action: android.net.conn.CONNECTIVITY_CHANGE
+01-30 14:26:47.581 00001 iport/UpgradeReceiver network_process() start.
+01-30 14:26:47.583 00001 iport/UpgradeReceiver network_process() should_report = true
+01-30 14:26:47.590 00001 iport/UpgradeReceiver network_process() network upgrade report
+01-30 14:26:47.615 00001 iport/UpgradeReceiver check the local report upgrade: 0
+01-30 14:26:47.624 00001 iport/UpgradeReceiver check the local report download: 0
+01-30 14:26:47.667 00001 iport/UpgradeReceiver network_process() delta_time = 4157 min devices_statistics_interval = 5184 min
+01-30 14:26:47.669 00001 iport/UpgradeReceiver network_process() end.
+01-30 14:26:47.935 00001 iport/FotaReceiver action = android.net.conn.CONNECTIVITY_CHANGE
+01-30 14:26:47.962 00001 iport/FotaReceiver check version in cycle. gap_time = 3004 min
+01-30 14:26:48.087 00161 iport/HttpTools url: http://fota4.adups.cn/ota/open/checkVersionsdkVerCode: 2.0 param: MobileParamInfo{mid='867846023175134', version='KW98_V1.6_B_20180525', oem='sinsoft6580_5.1', models='KW98', token='301815900bb89092c5905f1b76c8b77f', platform='MTK6580', deviceType='watch', mac='68:9c:5e:a4:c9:fb'}
+01-30 14:26:49.267 00161 iport/HttpTools response={"status":1004,"msg":"Currently the latest version"}
+01-30 14:26:49.407 00001 iport/FotaIntentService onCheckFail()
+01-30 14:26:51.171 00001 iport/UpgradeReceiver action: android.intent.action.BOOT_COMPLETED
