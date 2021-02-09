@@ -1,0 +1,11 @@
+* Installed TWRP-3.3.1-0-zeroflte.img for Samsung galaxy s6 SM-G920F
+* Installed TWRP wrong
+* Downloaded ZIP file N920_Nougat_Root_SuperSU_No_kernel_included
+* Installed ADB 1.0.41 V 30.0.5-6877874
+* $ADB_VENDOR_KEYS not set error
+* Adb reboot bootloader command rebooted device but device not in bootloader
+* Managed to get to recovery
+* Device actively refusing connection
+* In boot loader, device stuck on downloading of something unknown.
+* Downloaded Odin flashing tool, preparing to flash TWRP onto the device
+* 
