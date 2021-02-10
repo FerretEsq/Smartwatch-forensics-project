@@ -1,0 +1,36 @@
+27/1/21
+•	Installed TWRP-3.3.1-0-zeroflte.img for Samsung galaxy s6 SM-G920F
+•	Installed TWRP wrong
+•	Downloaded ZIP file N920_Nougat_Root_SuperSU_No_kernel_included
+•	Installed ADB 1.0.41 V 30.0.5-6877874
+•	$ADB_VENDOR_KEYS not set error
+•	Managed to get to recovery
+•	Device actively refusing connection
+•	Downloaded Odin flashing tool, preparing to flash TWRP onto the device
+
+30/1/21
+•	Restructured project repository to be more intuitive
+•	Created copies of the SQLite database and log files
+•	Starting process of flashing TWRP onto mobile phone
+•	Flashed TWRP onto phone
+•	Device stuck in boot loop
+•	Attempting to fix by rooting using N920_Nougat_Root_SuperSU_No_kernel_included
+•	Rebooting
+•	Device reboots normally and is rooted properly
+
+6/2/21
+•	Began taking the watch apart
+•	Held by 4 T-5 star screws
+•	Wires running into strap holders
+•	Wires are related to the antennae
+•	Inside metal plate held by 3 small metallic snaps which pop out on a little bit of applied pressure
+•	Screen connects to the PCB with 2 PCI slots
+•	On putting the watch back – display PCI slot is broken, with a pin accidentally torn off
+•	Can still operate device through adb
+
+9/2/21
+•	Created kernel & recovery logs on phone using TWRP
+•	New wiiwatch log name inconsistent with existing one
+•	Could be in yyyy/mm/dd/hr format
+•	Moved kernel & recovery logs to github repo
+
