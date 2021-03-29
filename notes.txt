@@ -34,3 +34,8 @@
 •	Could be in yyyy/mm/dd/hr format
 •	Moved kernel & recovery logs to github repo
 
+26/3/21
+•   Python code is coming along
+•   Traverses relevant directories and prints out directory content
+•   
+
